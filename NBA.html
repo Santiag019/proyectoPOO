@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugadores de la NBA</title>
+
+</head>
+<body>
+    <script>
+    const options = {
+        method: 'GET',
+        headers: {
+            'X-RapidAPI-Key': '55238700demshdec3342b5aac45dp1e2d78jsn5ebbc7d35cf8',
+            'X-RapidAPI-Host': 'free-nba.p.rapidapi.com'
+        }
+    };
+    
+    fetch('https://free-nba.p.rapidapi.com/players?page=0&per_page=25', options)
+        .then(response => response.json())
+        .then(response => console.log(response))
+        .catch(err => console.error(err));
+   </script>
+
+</body>
+</html>

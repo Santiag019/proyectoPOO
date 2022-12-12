@@ -1,0 +1,63 @@
+.NBA{
+    border: 10px rgb(255, 30, 0) solid;
+    font-size: 25px;
+    margin: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+    display:  block;
+    width: 25%;
+    height: 5%;
+    padding: 25px;
+    text-transform: uppercase;
+    background-color: rgb(224, 73, 26);  
+}
+.NBA:hover {
+    background-color: transparent;
+    border: 2px rgb(255, 0, 0) solid;
+    color: rgb(226, 95, 55);
+    border: 10px rgb(165, 3, 3) solid;
+}      
+
+.gatos {
+
+    border: 10px rgb(0, 4, 255) solid;
+    font-size: 25px;
+    margin: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    width: 25%;
+    height: 5%;
+    padding: 25px;
+    text-transform: uppercase;
+    background-color: rgb(46, 121, 207);      
+}
+.gatos:hover {
+    background-color: transparent;
+    border: 2px  rgb(29, 42, 155) solid;
+    color:rgb(20, 86, 173);
+    border: 10px rgb(20, 101, 252) solid;
+}    
+
+.clima {
+    border: 10px rgb(251, 255, 3) solid;
+    font-size: 25px;
+    margin: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    width: 25%;
+    height: 5%;
+    padding: 25px;
+    text-transform: uppercase;
+    background-color: rgb(240, 225, 17);
+}
+.clima:hover {
+    background-color: transparent;
+    border: 2px  rgb(238, 255, 0) solid;
+    color:rgb(243, 229, 29);
+    border: 10px rgb(253, 237, 11) solid ;
+} 
